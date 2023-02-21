@@ -13,6 +13,10 @@ The overall project constist of:
   
 The model was trained and tested using IIIT5k dataset, which can be found here https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset. If desired a different dataset can be used but the some minor adjustments on the Dataset.py file.
 
+To install the required libraries (requirements.txt) somebody needs to:
+  1) Create a new environment
+  2) run: "conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch"
+
 
 Overall it managed to reach ~80% accuracy, which is a remarkable result considering its simplistic nature.
   
