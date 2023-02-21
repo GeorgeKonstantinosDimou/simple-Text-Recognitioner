@@ -11,5 +11,5 @@ The overall project constist of:
   5) Utils.py because of the usage of CTCLoss as a loss function, special care needs to be attributed to the calculation of accuracy.
   6) Main.py with the remaining functions to train/test the model.
   
-The model was trained and tested using IIIT5k dataset, more on Requirements.txt
+The model was trained and tested using IIIT5k dataset, more on Requirements.txt. It managed to reach 80% accuracy, which is a remarkable result considering its simplistic nature.
   
