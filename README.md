@@ -11,7 +11,7 @@ The overall project constist of:
   5) Utils.py because of the usage of CTCLoss as a loss function, special care needs to be attributed to the calculation of accuracy.
   6) Main.py with the remaining functions to train/test the model.
   
-The model was trained and tested using IIIT5k dataset, which can be found here https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset. If desired a different dataset can be used but the some minor adjustments on the Dataset.py file.
+The model was trained and tested using IIIT5k dataset, which can be found here https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset. If desired a different dataset can be used but with some minor adjustments on the Dataset.py file.
 
 To install the required libraries (requirements.txt) somebody needs to:
   1) Create a new environment
